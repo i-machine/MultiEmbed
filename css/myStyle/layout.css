@@ -1,0 +1,63 @@
+body {
+}
+
+.borderedDiv,.BorderedDiv {margin: 10px; padding: 5px 7px 5px 7px; border: thin solid ;}
+.filledDiv,.FilledDiv {}
+.inlineDiv {display: inline-block}
+.fixedHeaderDiv {position: fixed;}
+
+.clickable {cursor: pointer;}
+
+a {text-decoration: none}
+label {margin-bottom: 0px;}
+
+.alignRight {text-align: right;}
+.alignCenter {text-align: center;}
+
+
+.SpaceChildrenHorizontalNarrow > :not(:first-child) {margin-left:5px;}
+.SpaceChildrenHorizontalMediumNarrow > :not(:first-child) {margin-left:9px;}
+.SpaceChildrenHorizontal > :not(:first-child) {margin-left:12px;}
+.SpaceChildrenHorizontalMediumWide > :not(:first-child) {margin-left:15px;}
+.SpaceChildrenHorizontalWide > :not(:first-child) {margin-left:20px;}
+.SpaceChildrenHorizontalExtraWide > :not(:first-child) {margin-left:30px;}
+.NoMarginBetweenChildren > :not(:first-child) {margin-left:0px;}
+
+.spaceChildrenHorizontalNarrow > :not(:first-child) {margin-left:5px;}
+.spaceChildrenHorizontalMediumNarrow > :not(:first-child) {margin-left:9px;}
+.spaceChildrenHorizontal > :not(:first-child) {margin-left:12px;}
+.spaceChildrenHorizontalMediumWide > :not(:first-child) {margin-left:15px;}
+.spaceChildrenHorizontalWide > :not(:first-child) {margin-left:20px;}
+.spaceChildrenHorizontalExtraWide > :not(:first-child) {margin-left:30px;}
+.noMarginBetweenChildren > :not(:first-child) {margin-left:0px;}
+
+
+.table {padding: 7px; border: thin solid; border-collapse: separate; border-spacing: 0px;}
+.table tr {border: thin solid ;}
+.table tr,table td,table th {padding: 2px 10px 2px 10px;}
+.table th, table td {text-align: left;}
+
+table td.fitWidthToContent,table td.FitWidthToContent,table th.fitWidthToContent,table th.FitWidthToContent {white-space: nowrap; overflow: hidden; text-overflow: ellipsis}
+
+.title {}
+.subtitle {}
+.text {}
+
+.article {
+	margin: 7px 10px 7px 10px;
+	padding: 2px 7px 1px 7px;
+	border: thin solid;
+}
+
+.articleText {}
+.articleTitle {}
+.articleSubtitle {}
+.articleMetaData {}
+.articleData {}
+.articleDataImportant {}
+.articleDataNonImportant {}
+.articleLink {}
+.articleSource {}
+.articleAuthor {}
+.articleCommentCount {}
+.articleNoComments {}

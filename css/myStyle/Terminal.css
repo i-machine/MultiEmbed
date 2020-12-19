@@ -1,0 +1,26 @@
+.terminal{
+    font-family: monospace;
+    /*font-family: FreeMono, monospace; this don't work on Android */
+    color: #aaa;
+    font-size: 12px;
+    line-height: 14px;
+    box-sizing: border-box;
+}
+
+.terminal-input{
+    float: left;
+}
+
+.terminal-command-input{
+    float: left;
+}
+
+.terminal-paragraph-input{
+}
+
+.terminal-output{
+    font-family: monospace;
+    display: block;
+    line-height: 14px;
+    height: auto;
+}

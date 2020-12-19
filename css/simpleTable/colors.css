@@ -1,0 +1,42 @@
+.simpleTableHighlightedRow
+{
+	background-color: rgba(200,20,20,0.5);
+}
+
+.simpleTable-indicateOddAndEvenRows tbody tr:nth-child(even)
+{
+	background-color: rgba(140,140,140,0.1);
+}
+
+.simpleTable tbody tr:hover
+{
+	background-color: rgba(50,50,255,0.35);
+}
+
+.simpleTableHeaderRow
+{
+	border-color: silver;
+	background-color: rgba(50,100,255,0.5);
+}
+
+.simpleTable tfoot tr
+{
+	border-color: silver;
+	background-color: rgba(0,50,255,0.25);
+}
+
+.simpleTableSortColumnHeader
+{
+	background: linear-gradient(to bottom,#d9534f 0,#c12e2a 100%);
+	outline: none;
+}
+
+.simpleTable .positiveValue
+{
+	color: #80FF80;
+}
+
+.simpleTable .negativeValue
+{
+	color: #DD3030;
+}

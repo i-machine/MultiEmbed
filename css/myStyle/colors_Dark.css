@@ -1,0 +1,88 @@
+body {
+	color: white;
+	background-color: #050505;
+}
+
+input, select, textarea {
+	background-color: #202020;
+    color: white;
+}
+
+textarea:focus, select:focus, input:focus {
+}
+
+::selection {background-color: #2050EE;}
+
+a {color: #AACCFF}
+a:visited {color: #00BBEE}
+a:active {color: #AACCFF}
+a:hover {color: #AACCFF}
+
+table {border-color: silver;}
+table tr {border-color: silver;}
+table tr.filteredout {color: #DDDDDD;}
+table tr.notfilteredout {}
+
+button,
+input.button,
+a.button,
+input[type="submit"]{
+	color: white;
+	background: linear-gradient(to bottom right,#151515,#404040);
+	border: 1px solid #404040;
+	border-radius: 3px;
+}
+
+button:focus,
+input.button:focus,
+a.button:focus,
+input[type="submit"]:focus{
+  outline: none;
+}
+
+button:hover,
+input.button:hover,
+a.button:hover,
+input[type="submit"]:hover{
+	color: white;
+	border: 1px solid #404040;
+	background: linear-gradient(to bottom right,#252525,#505050);
+}
+
+.activeModeButton {
+	background: linear-gradient(to bottom,#C03535,#E04545);
+	border: 1px solid #404040;
+	border-radius: 3px;
+}
+.activeModeButton:hover{
+	background: linear-gradient(to bottom,#A02525,#C03535);
+}
+
+.inactiveModeButton {
+	background: linear-gradient(to bottom,#301515,#502525);
+	border: 1px solid #404040;
+	border-radius: 3px;
+}
+.inactiveModeButton:hover{
+	background: linear-gradient(to bottom,#602020,#803030);
+}
+
+.borderedDiv,.BorderedDiv {border-color: silver}
+.filledDiv,.FilledDiv {background-color: #050505;}
+
+.title {color: white;}
+.subtitle {color: white;}
+.text {color: white;}
+.article {color: white;}
+.articleText {color: white;}
+.articleTitle {color: white;}
+.articleSubtitle {color: white;}
+.articleMetaData {color: #A0D0D0;}
+.articleData {color: white;}
+.articleDataImportant {color: white;}
+.articleDataNonImportant {color: white;}
+.articleLink {color: white;}
+.articleSource {color: white;}
+.articleAuthor {color: white;}
+.articleCommentCount {color: #A0D0D0;}
+.articleNoComments {color: white;}

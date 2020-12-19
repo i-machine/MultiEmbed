@@ -1,0 +1,64 @@
+body,
+#panelDivsContainer
+{
+    background-color: black;
+}
+
+#controlDiv input[type='checkbox']
+{
+    vertical-align: text-bottom;
+}
+
+.panelDivFloatingToolsDiv
+{
+    background-color: rgba(0,0,0,0.75);
+    pointer-events: none;
+    color: white;
+    right: 10px;
+    top: 10px
+}
+
+.panelDivFloatingToolsDiv .panelIcon
+{
+    pointer-events:auto;
+    font-size: 14px;
+}
+.panelDivFloatingToolsDiv .panelIcon:not(:first-child)
+{
+    margin-left: 15px;
+}
+
+.controlDivInlineDiv
+{
+	display: inline-block;
+}
+
+.controlDivInlineDiv:not(:first-child)
+{
+	margin-left: 20px;
+}
+
+.columnsInput,
+.rowsInput
+{
+	width: 40px;
+}
+
+.urlInput
+{
+    width: 200px;
+}
+
+.panelDiv
+{
+	padding: 5px 5px 5px 5px;
+}
+
+.disable-select {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none;   /* Chrome/Safari/Opera */
+    -khtml-user-select: none;    /* Konqueror */
+    -moz-user-select: none;      /* Firefox */
+    -ms-user-select: none;       /* Internet Explorer/Edge */
+    user-select: none;           /* Non-prefixed version, currently supported by any browser but < IE9 */
+}

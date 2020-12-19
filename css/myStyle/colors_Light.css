@@ -1,0 +1,43 @@
+body {
+	color: black;
+	background-color: white;
+}
+
+input, select, textarea {
+	background-color: white;
+    color: black;
+}
+
+textarea:focus, select:focus, input:focus {
+}
+
+::selection {background-color: #80EEFF;}
+
+a:visited {color: black;}
+a:active {color: black;}
+a:hover {color: black;}
+
+table {border-color: silver;}
+table tr {border-color: silver}
+table tr.filteredout {background-color: #EEEEEE}
+table tr.notfilteredout {}
+
+.borderedDiv,.BorderedDiv {border-color: silver}
+.filledDiv,.FilledDiv {background-color: white;}
+
+.title {color: #050505;}
+.subtitle {color: #101010;}
+.text {color: black;}
+.article {color: black;}
+.articleText {color: black;}
+.articleTitle {color: #050505;}
+.articleSubtitle {color: #101010;}
+.articleMetaData {color: #606060;}
+.articleData {color: #202050;}
+.articleDataImportant {color: #2020FF;}
+.articleDataNonImportant {color: #101040;}
+.articleLink {color: black;}
+.articleSource {color: #202040;}
+.articleAuthor {color: #202040;}
+.articleCommentCount {color: #AA0000;}
+.articleNoComments {color: #A0A0A0;}

@@ -1,0 +1,39 @@
+.simpleTable
+{
+	border: 0;
+}
+
+.simpleTableRow
+{
+	border: 0;
+}
+
+.simpleTableRow > td
+{
+	border: 0;
+}
+
+.simpleTableHeaderRow
+{
+	border: 0;
+}
+
+.simpleTableHeaderRow > td
+{
+	border: 0;
+}
+
+.simpleTable tbody:before,
+.simpleTable tfoot:before
+
+{
+    content: "-";
+    display: block;
+    line-height: 5px;
+    color: transparent;
+}
+
+.simpleTable thead th
+{
+	cursor: pointer;
+}

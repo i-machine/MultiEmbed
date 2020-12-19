@@ -1,0 +1,28 @@
+body {
+	font-family: "Arial";
+	font-size: 12px;
+}
+
+label {font-weight: normal
+}
+a {text-decoration: none}
+a:visited {text-decoration: none}
+a:active {text-decoration: none}
+a:hover {text-decoration: none}
+
+
+.title {font-size: 16px; font-weight: bold;}
+.subtitle {font-size: 14px; font-weight: bold;}
+.text {}
+.articleText {}
+.articleTitle {font-size: 14px; font-weight: bold;}
+.articleSubtitle {font-size: 13px; font-weight: bold;}
+.articleMetaData {font-size: 11px;}
+.articleData {font-size: 11px;}
+.articleDataImportant {font-weight: bold;}
+.articleDataNonImportant {font-size: 11px;}
+.articleLink {}
+.articleSource {}
+.articleAuthor {}
+.articleCommentCount {font-size: 11px;}
+.articleNoComments {font-size: 11px;}

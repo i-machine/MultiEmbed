@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>MultiEmbed</title>
+	<link id="favicon" rel="icon" type="image/png" href="favicon.png">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <script src="lib/jquery.js"></script>
+        <script src="lib/jquery.ajax-cross-origin.min.js"></script>
+        <script src="lib/lodash.js"></script>
+        <script src="lib/moment.js"></script>
+        <script src="lib/sprintf.js"></script>
+        <script src="lib/jquery.magnific-popup.js"></script>
+
+        <link rel="stylesheet" type="text/css" href="lib/bootstrap.min.css" />
+        <script src="lib/bootstrap.min.js"></script>
+
+        <script src="lib/GMTests.js"></script>
+        <script src="lib/GMValues.js"></script>
+        <script src="lib/GMObjects.js"></script>
+        <script src="lib/GMArrays.js"></script>
+        <script src="lib/GMStrings.js"></script>
+        <script src="lib/MyGeneralLibrary.js"></script>
+        <script src="lib/MyjQueryLibrary.js"></script>
+        <script src="lib/MyValuesLibrary.js"></script>
+        <script src="lib/MyObjectsLibrary.js"></script>
+        <script src="lib/MyArraysLibrary.js"></script>
+        <script src="lib/MyStringsLibrary.js"></script>
+        <script src="lib/GMValueStructureConvertersLibrary.js"></script>
+        <script src="lib/MyNamedObjectsLibrary.js"></script>
+        <script src="lib/MyDebugLibrary.js"></script>
+        <script src="lib/MyStorageLibrary.js"></script>
+        <script src="lib/MyTablesLibrary.js"></script>
+        <script src="lib/MyInternetLibrary.js"></script>
+        <script src="lib/MyHTMLLibrary.js"></script>
+        <script src="lib/MyDOMLibrary.js"></script>
+        <script src="lib/GMFetchLibrary.js"></script>
+        <script src="lib/MyClientServerLibrary.js"></script>
+        <script src="lib/MyNotificationClientLibrary.js"></script>
+        <script src="lib/MyGlobalMessagingLibrary.js"></script>
+        <script src="lib/MySpeechLibrary.js"></script>
+        <script src="lib/MySoundLibrary.js"></script>
+        <script src="lib/MySimpleTablesLibrary.js"></script>
+        <script src="lib/MyTagsLibrary.js"></script>
+        <script src="lib/MyStopWordsLibrary.js"></script>
+
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<!--
+	youtube iframe_api is manually loaded within the script - do not include here
+ 	<script src="https://www.youtube.com/iframe_api  "></script>
+ -->
+ 	<script src= "https://player.twitch.tv/js/embed/v1.js"></script>
+	<script src="https://embed.twitch.tv/embed/v1.js"></script>
+	
+	<!-- css -- must come after libraries to override bootstrap css -->
+        <link rel="stylesheet" type="text/css" href="CSS/myStyle/fonts.css" />
+        <link rel="stylesheet" type="text/css" href="CSS/myStyle/colors_Dark.css" />
+        <link rel="stylesheet" type="text/css" href="CSS/myStyle/layout.css" />
+
+        <link rel="stylesheet" type="text/css" href="CSS/simpleTable/fonts.css" />
+        <link rel="stylesheet" type="text/css" href="CSS/simpleTable/colors.css" />
+        <link rel="stylesheet" type="text/css" href="CSS/simpleTable/layout.css" />
+
+        <link rel="stylesheet" type="text/css" href="CSS/fonts.css" />
+        <link rel="stylesheet" type="text/css" href="CSS/colors.css" />
+        <link rel="stylesheet" type="text/css" href="CSS/layout.css" />
+        <link rel="stylesheet" type="text/css" href="CSS/style.css" />
+
+        <link rel="stylesheet" type="text/css" href="style.css" />
+  
+	<!-- src -->
+	<script src="src/GMEmbed.js"></script>
+	<script src="src/GMEmbedInterface.js"></script>
+	<script src="src/main.js"></script>
+
+	<!-- tests -->
+	<script src="tests/mainTests.js"></script>
+
+</head>
+<body>
+	<div id="container" style="display: table; width: 100vw; height: 100vh">
+	<div id="controlDiv" style="display: table-row; height: 0">
+		<div class="hidden">
+			<div class="controlDivInlineDiv">
+				Columns <input type="number" class="columnsInput">
+				<input type="checkbox" class="autoColumnsInput"> auto
+			</div>
+			<div class="controlDivInlineDiv">
+				Rows <input type="number" class="rowsInput">
+				<input type="checkbox" class="autoRowsInput"> auto
+			</div>
+		</div>
+		<div class="controlDivInlineDiv">
+			<span class="addItem  clickable">
+				<span class="glyphicon glyphicon-plus"></span> Add url 
+			</span>
+			<input type="text" class="urlInput">
+		</div>
+		<div class="controlDivInlineDiv">
+			<span class="editTitle clickable">
+				 <span class="glyphicon glyphicon-pencil"></span> Edit title
+			</span>
+		</div>
+	</div>
+
+	<div style="display: table-row; height: auto">
+		<div id="panelDivsContainer" style="list-style-type: none; width: 100%; height: 100%">
+		</div>
+	</div>
+
+</body>
+</html>
